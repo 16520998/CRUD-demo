@@ -1,0 +1,14 @@
+:root {
+  --primary-font: "Roboto", "Helvetica", "Arial", sans-serif;
+  --primary-color: #55b3d9;
+  --secondary-color: #73c6d9;
+  --cyan-color: #88e8f2;
+  --dark-blue-color: #2d5f73;
+  --black-color: #141e26;
+}
+
+body {
+  font-family: var(--primary-font);
+  margin: 0;
+  overflow-y: auto;
+}

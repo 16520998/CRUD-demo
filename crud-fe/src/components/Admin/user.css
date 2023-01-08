@@ -1,0 +1,187 @@
+.table-name-container {
+    margin: 10px 0 30px 5px;
+}
+
+.table-name-text {
+    margin: 0;
+    font-size: 30px;
+}
+
+.ant-col.table-name-col {
+    align-items: center;
+    display: flex;
+}
+
+.ant-table-thead>tr>th {
+    color: white !important;
+    background: #45c3d2 !important;
+    justify-content: center !important;
+}
+
+th.ant-table-cell {
+    text-align: center !important;
+}
+
+td.ant-table-cell {
+    text-align: center !important;
+}
+
+.button-group>div {
+    display: inline;
+}
+
+.button-group>button {
+    padding: 4px 5px;
+}
+
+/* button details */
+button.ant-btn.ant-btn-link.button-detail {
+    padding-right: 20px;
+}
+
+button.ant-btn.ant-btn-link.button-edit {
+    padding-right: 20px;
+}
+
+.info-container {
+    padding: 20px;
+    /* overflow: scroll; */
+}
+
+/* doctor info */
+.ant-descriptions-bordered .ant-descriptions-item-label {
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    width: 20%;
+}
+
+.ant-descriptions-bordered .ant-descriptions-item-content:last-child {
+    border-right: none;
+    background: white;
+}
+
+.ant-list.ant-list-split.ant-list-bordered.list-supporter-container {
+    margin-bottom: 20px;
+}
+
+.list-doctor-container {
+    border: 1px solid rgb(211, 211, 211);
+}
+
+h2.list-doctor-heading2 {
+
+    padding: 20px 0 0 20px;
+}
+
+h2.list-supporters-header {
+    margin-bottom: 0;
+}
+
+.ant-table-wrapper.list-doctor-table {
+    padding: 5px;
+}
+
+.doctor-detail-introduction {
+    display: flex;
+    justify-content: center;
+}
+
+span.ant-avatar.ant-avatar-square.ant-avatar-image.doctor-detail-avatar {
+    margin-right: 20px;
+}
+
+p.doctor-detail-para {
+    font-style: italic;
+}
+
+h1.doctor-detail-heading1 {
+    font-size: 20px;
+    padding-top: 16px;
+    font-weight: bold;
+}
+
+img.ant-image-img {
+    border: 1px solid rgb(231, 231, 231);
+}
+
+/* specialization info */
+
+.specialization-info-heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ant-col.ant-form-item-label.ant-col-sm-6.ant-col-md-4.ant-col-lg-4.ant-col-xl-3.ant-col-xxl-2 {
+    text-align: left;
+}
+
+.ant-row.ant-form-item-row {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* clinics info  */
+.para-detail {
+    padding: 20px;
+    background-color: rgb(231, 231, 231);
+}
+
+span.ant-divider-inner-text {
+    font-weight: bold;
+    font-style: italic;
+    color: #6a6a6a;
+}
+
+/* schedule info  */
+.ant-list.ant-list-split.ant-list-bordered.list-schedules {
+    border-color: rgb(231, 231, 231);
+}
+
+li.ant-list-item.list-item-schedule {
+    border-color: rgb(231, 231, 231);
+}
+
+/* responsive */
+@media only screen and (max-width: 768px) {
+    .para-detail {
+        padding: 15px;
+    }
+
+    .ant-page-header.ant-page-header-ghost.ant-page-header-compact {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .info-container {
+        padding: 0 0 15px;
+    }
+
+    h1.specialization-info-heading {
+        font-size: 20px;
+    }
+
+    button.ant-btn.ant-btn-text.ant-btn-dangerous.button-delete {
+        padding: 0;
+    }
+
+    li.ant-list-item.list-item-schedule {
+        padding: 10px 0 0 10px;
+    }
+
+    span.ant-page-header-heading-title {
+        font-size: 16px;
+    }
+
+    h1.doctor-detail-heading1 {
+        font-size: 15px;
+        padding-top: 22px;
+        font-weight: bold;
+    }
+
+    button.ant-btn.ant-btn-link.button-edit {
+        padding-right: 20px;
+    }
+}
